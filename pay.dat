@@ -1,0 +1,23 @@
+Data for hourly employee pay: 
+First name: Bella
+Last name: Moe
+Ssn: xxx-xx-2222
+Id: 123-a
+Hourlypay: 50.00
+Hours worked 50
+Overtime rate: $75.00
+Tax rate: 1
+Work status: F
+Payment due: $2062.50
+Data for agency employee pay:
+First name: hd
+Last name: d
+Ssn: xxx-xx-2222
+Id: 123-a
+Hourlypay: 50.00
+Hours worked 50
+Overtime rate: $75.00
+Tax rate: 1
+Work status: F
+Payment due: $2062.50
+Company to pay: d
