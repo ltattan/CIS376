@@ -38,7 +38,7 @@ jobs:
           echo "$HOME\.sonar\build-wrapper-win-x86" | Out-File -Append -FilePath $env:GITHUB_PATH -Encoding utf8
       - name: Run build-wrapper
         run: |
-          build-wrapper-win-x86-64 --out-dir ${{ env.BUILD_WRAPPER_OUT_DIR }}msbuild C:\Users\lmtat\OneDrive\Desktop\cis 376\376_Final\CIS375_Final_Project_Employee_Payment_Version3\PROG0-Employee_Payments
+          build-wrapper-win-x86-64 --out-dir ${{ env.BUILD_WRAPPER_OUT_DIR }} msbuild C:\Users\lmtat\OneDrive\Desktop\cis 376\376_Final\CIS375_Final_Project_Employee_Payment_Version3\PROG0-Employee_Payments
       - name: Run sonar-scanner
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
