@@ -1,0 +1,46 @@
+/* NOTE: this site is using bootstrap but you can customize manually by adding css per class or by adding an ID to the element you're attempting to modify.  */
+body {
+    background-color: #1E3575;
+  }
+  
+  /* Navbar */
+  .btn {
+    color: white;
+  }
+  
+  .btn:hover {
+    background-color: #1E3575;
+  }
+  
+  .btn-outline-success {
+    border-color: white;
+  }
+  
+  .btn-outline-success:hover {
+    border-color: #1E3575;
+  }
+  
+  /* Quicklinks Header Tab */
+  .fw-heavy {
+    margin-top: 3rem;
+    color: white;
+  }
+  
+  .lead {
+    color: #FBF9F3;
+  }
+  
+  /* Categories / general homepage */
+  /* Footer */
+  .mb-1 {
+    color: white;
+  }
+  
+  footer a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  footer a:hover {
+    color: #E1F0F9;
+  }
